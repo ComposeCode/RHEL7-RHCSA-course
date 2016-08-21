@@ -20,8 +20,6 @@ In order to study for this exam you will need a decent machine capable of runnin
 >**NOTE**:
 Red Hat now provide free RHEL subscriptions for developers which may be used instead (http://developers.redhat.com/downloads/). However, it is currently locked to one subscription per email address so you will need to request multiple subscriptions through multiple email addresses or reuse the single subscription.
 
-
-
 ### Authors
 
 Calvin Hartwell (mail@composecode.com).
