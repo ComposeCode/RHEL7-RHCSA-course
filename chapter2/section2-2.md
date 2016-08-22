@@ -35,5 +35,34 @@ $ ls
   asl					gettytab				nfs.conf				rc.common
   ...
 
-$ cd  # running cd without a directory will take you to users home directory
+$ cd  # running cd without a directory will take you to the users home directory
+```
+
+Another common command is mkdir, known as make directory which can be used to create a directory for files. See the example below on how to use it:
+
+```
+$ mkdir test-directory
+$ ls
+README.md	SUMMARY.md	chapter1	chapter2	rhel7_rhcsa.md	test-directory
+```
+
+Some machines have several active users running different commands at once. Sometimes it is useful to find out which session we are currently using. The tty command is useful for that purpose:
+
+```
+$ tty
+/dev/ttys003
+```
+
+We can also check who is logged into the system and which of those users we are:
+
+```
+$ who
+console  Aug 18 10:04
+ttys000  Aug 18 10:04
+ttys001  Aug 21 01:17
+ttys002  Aug 21 01:22
+ttys003  Aug 21 01:32
+
+$ who am i
+ttys003  Aug 21 01:32
 ```
