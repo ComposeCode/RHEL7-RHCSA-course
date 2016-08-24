@@ -1,4 +1,4 @@
-# Chapter 2, Section 6: Getting Help
+# Chapter 2, Section 7: Getting Help
 
 As always, the internet can provide a great source of information regarding different commands or commands not covered by this book. In the exam environment however you will not have access to the internet so should look to use the man pages or the documentation included in /usr/share/doc.
 
@@ -31,4 +31,4 @@ Finally, the info command is available for browsing documentation distributed as
 usermod (8)          - modify a user account
 ```
 
-Will give you information about the passwd command for changing user passwords. 
+Will give you information about the passwd command for changing user passwords.
