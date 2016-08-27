@@ -102,5 +102,3 @@ Symbolic links are used to create 'short-cuts' to another file or directory. For
 ## Device Files
 
 For each piece of hardware in your Linux machine there is a special device file used by the kernel to communicate with that hardware. As mentioned previously, these can either be raw or block device files. If you go into the /dev file system and run the ll command, you will notice that some files are denoted with a 'c' character and some are denoted with a 'b'. The files with 'b' are block device files, where as the device files with 'c' are character/raw device files. Also as previously mentioned, the file command can be used to work out if a file is block or character/raw device file.
-
-## File and Directory Operations
