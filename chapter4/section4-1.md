@@ -13,4 +13,5 @@
 - Give example and recommendation for bash completion
 
 ## Special Characters
-- Explain * and all other special characters like \, ^, <>, $, ., ?, | etc 
+- Explain * and all other special characters like \, ^, <>, $, ., ?, | etc
+- Give examples of all, include piping and escaping things like quotes
