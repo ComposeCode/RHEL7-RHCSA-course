@@ -7,6 +7,7 @@ Files themselves can either be static or dynamic. Files can be reference either 
 - disk based vs memory based, static/dynamic files, relative or absolute paths.
 - Explain file types in more detail
 - tree command, file system layout diagram
+- example of tilde substitution 
 - explain file command
 - explain filesystems vs partitions vs directories
 - explain default layout, recommendations

@@ -95,3 +95,5 @@ Finally, the history command can be used to display the recent commands executed
    ...
 [root@ie composecode]#
 ```
+
+- add example of histfile output (.bash_history in user home dir)

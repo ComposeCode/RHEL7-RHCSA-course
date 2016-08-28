@@ -9,3 +9,4 @@ The find command recursively searches
 ## Using grep to search?
 
 - grep examples
+- grep regex examples, explain what regular expressions and give examples 
