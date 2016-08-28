@@ -10,4 +10,36 @@
 - Installing virtualization yum groups
 - Explain the virtual routing virbr0 (NAT, etc)
 - Explain storage pool and storage volume
-- Explain virtualization management tool 
+- Explain virtualization management tool
+
+# Using Virtual Machine manager
+- Using virtual machine manager/virsh/virt-manager, using virt-install
+
+root@ie networks]# cat default.xml
+<network>
+  <name>default</name>
+  <bridge name="virbr0"/>
+  <forward/>
+  <ip address="192.168.122.1" netmask="255.255.255.0">
+    <dhcp>
+      <range start="192.168.122.2" end="192.168.122.254"/>
+    </dhcp>
+  </ip>
+</network>
+[root@ie networks]# pwd
+/usr/share/libvirt/networks
+[root@ie networks]# ls
+default.xml
+
+- Exmaples of creating virtual networks, storage pools
+
+# Configuring FTP Server as yum repo
+- yum install -y vsftpd
+- local_root=...
+- firewall-cmd --add-service=ftp --permanent ; firewall-cmd --reload
+- /var/ftp/pub/...
+- configuring yum file
+
+# Creating a bridge
+- example of creating bridge
+- brctl to show bridges (brctl show br0)
