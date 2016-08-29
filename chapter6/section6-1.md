@@ -43,3 +43,12 @@ default.xml
 # Creating a bridge
 - example of creating bridge
 - brctl to show bridges (brctl show br0)
+
+# installing vm with GUI (virt manager) or through kickstart installation method
+- How to setup kickstart via anacoda-ks.cfg
+- add url line, url --url="ftp://ip/pub/rhel7/..."
+- system-config-kickstart tool can be used
+- ksvalidator example
+
+# wget utility
+- wget examples 
