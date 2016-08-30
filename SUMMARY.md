@@ -30,7 +30,7 @@
 * [Chapter 9 - ](chapter9/README.md)
     * [Section 9.1: ](chapter9/section9-1.md)
 * [Chapter 10 - ](chapter10/README.md)
-    * [Section 10.1: ](chapter6/section10-1.md)
+    * [Section 10.1: ](chapter10/section10-1.md)
 * [Chapter 11 - ](chapter11/README.md)
     * [Section 11.1: ](chapter11/section11-1.md)
 * [Chapter 12 - ](chapter12/README.md)
